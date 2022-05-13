@@ -1,0 +1,212 @@
+html, body, ul {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #344648;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blocPrincipal {
+    width: 100%;
+    max-width: 2000px;
+}
+section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.ecran {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Menu */
+nav {
+    background-color: #344648;
+    height: 8vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 1vw;
+}
+
+.a-menu1 {
+    color:#FBE0C3;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+.a-menu1:hover {
+    color:#FFBB98;
+    text-decoration: none;
+}
+
+/* ecrans communs*/
+h1{
+    color:#FBE0C3;
+    font-weight: bold;
+}
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* cadre de tous les textes*/
+.textearticle{
+    text-align: justify;
+    /*background-color: #FFBB98;*/
+    color: #344648;
+}
+.texteEcran4{
+    width: 40%;
+    padding: 10px;
+    height: 80%;
+    border-radius: 2px;
+}
+.texteEcran5{
+    width: 80%;
+    padding: 10px;
+    height: 90%;
+    border-radius: 2px;
+}
+
+
+/* ecran 1 */
+.ecran1{
+    background-color: #FBE0C3;
+    background-image: url("images/image_fonds.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section-ecran1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+/* ecran 2 */
+.ecran2{
+    background-color: #FBE0C3;
+    background-size: 100%;
+    background-image: url("images/fonds7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ecran 3*/
+.ecran3{
+    /*background-color: #FBE0C3;*/
+    background-color: #FBE0C3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    background-image: url("images/fonds7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ecran 4*/
+.ecran4{
+    background-color: #FBE0C3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    background-image: url("images/fonds7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ecran 5*/
+.ecran5{
+    background-color: #FBE0C3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    background-image: url("images/fonds7.jpg");
+    background-size: cover;
+}
+
+/* ecran 6*/
+.ecran6{
+    background-color: #FBE0C3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    background-image: url("images/fonds7.jpg");
+    background-size: cover;
+}
+
+/* Formulaire*/
+#form-contact{
+    height: 100%;
+}
+#form-bouton{
+    text-align: center;
+}
+fieldset{
+    height: 97%;
+    border:1px solid #344648;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+textarea {
+    resize: none;
+}
+
+input, textarea, select,label {
+    font-size: 1em;
+    padding:3px;
+    border:1px solid #FBE0C3;
+    border-radius:5px;
+    width:98%;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    }
+
+
+/* classe bouton */
+.bouton {
+    border:none;
+    background-color: #344648;
+    padding: 15px;
+    color: #FBE0C3;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+    margin:4px 2px;
+    width: 130px;
+    cursor: pointer;
+    }
+
+.bouton:hover { 
+    background-color: #7D8E95;
+    color: #FBE0C3;
+}
