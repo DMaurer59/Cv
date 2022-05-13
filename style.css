@@ -1,6 +1,11 @@
-html, body, ul {
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 16px;
+}
+
+html, body, ul {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #344648;
 }
@@ -32,7 +37,7 @@ section {
 
 /* Menu */
 nav {
-    background-color: #344648;
+    background-color: #727984;
     height: 8vh;
     position: sticky;
     top: 0;
@@ -48,20 +53,21 @@ nav ul li {
 }
 
 .a-menu1 {
-    color:#FBE0C3;
+    color:#E8D3DA;
     text-decoration: none;
     font-size: 2em;
     font-weight: bold;
 }
 .a-menu1:hover {
-    color:#FFBB98;
+    color:#E77589;
     text-decoration: none;
 }
 
 /* ecrans communs*/
 h1{
-    color:#FBE0C3;
-    font-weight: bold;
+    color:#E77589;
+    font-size: 3rem;
+    margin: 100px;
 }
 h4 {
     text-align: center;
@@ -91,7 +97,7 @@ h4 {
 /* ecran 1 */
 .ecran1{
     background-color: #FBE0C3;
-    background-image: url("images/image_fonds.png");
+    background-image: url("images/fonds1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -194,19 +200,20 @@ input, textarea, select,label {
 /* classe bouton */
 .bouton {
     border:none;
-    background-color: #344648;
+    background-color: #E8D3DA;
     padding: 15px;
-    color: #FBE0C3;
+    color: #727984;
     font-size: 1em;
     text-decoration: none;
     text-align: center;
     border-radius: 16px;
     margin:4px 2px;
-    width: 130px;
+    width: 150px;
     cursor: pointer;
+    transition: 0.8s;
     }
 
 .bouton:hover { 
-    background-color: #7D8E95;
-    color: #FBE0C3;
+    background-color: #727984;
+    color: #E8D3DA;
 }
